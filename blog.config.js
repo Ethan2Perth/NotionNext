@@ -26,7 +26,7 @@ const BLOG = {
 
   AUTHOR: process.env.NEXT_PUBLIC_AUTHOR || 'CX', // 您的昵称 例如 tangly1024
   BIO: process.env.NEXT_PUBLIC_BIO || 'Attention Is All You Need', // 作者简介
-  LINK: process.env.NEXT_PUBLIC_LINK || 'https://www.cxai.top', // 网站地址
+  LINK: process.env.NEXT_PUBLIC_LINK || 'https://cxai.top', // 网站地址
   KEYWORDS: process.env.NEXT_PUBLIC_KEYWORD || 'MineralS365, 博客', // 网站关键词 英文逗号隔开
 
   // 社交链接，不需要可留空白，例如 CONTACT_WEIBO:''
@@ -266,7 +266,7 @@ const BLOG = {
   // 静态彩带特效
   RIBBON: process.env.NEXT_PUBLIC_RIBBON || false, // 开关
   // 星空雨特效 黑夜模式才会生效
-  STARRY_SKY: process.env.NEXT_PUBLIC_STARRY_SKY || false, // 开关
+  STARRY_SKY: process.env.NEXT_PUBLIC_STARRY_SKY || true, // 开关
 
   //   ********挂件组件相关********
   // AI 文章摘要生成 @see https://docs_s.tianli0.top/
